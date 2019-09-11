@@ -1,0 +1,422 @@
+JFDML JFormDesigner: "6.0.4.0.167" Java: "1.8.0_152-release" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {seq l {comp panelReservatorio:::p::p, space :::p, par l {comp panelModeloBifasico:::p::p, comp panelPoco::::0:x}, space :::x}}"
+			"$verticalGroup": "par t {seq t {par t {comp panelReservatorio::l:::x, seq t {comp panelModeloBifasico:::p::p, space :::p, comp panelPoco:::::x}}, space :p:12:p}}"
+		} ) {
+			name: "this"
+			addEvent( new FormEvent( "java.awt.event.WindowListener", "windowOpened", "thisWindowOpened", true ) )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+				"$horizontalGroup": "par l {seq {space :p:27:p, par l {par l:::p {seq l {par t:::p {comp labelPermeabilidade::l:p::p, comp txtPermeabilidade::l:p:82:p}, space :::p, comp label2:::::x}, seq l {comp txtPorosidade:::p:82:p, space :::p, comp label3:::p::p}, comp labelTipoDeFluxo::l:p::p, comp labelPorosidade::l:p::p, comp labelCompressibilidade::l:p::p, seq l {comp txtCompressibilidade:::p:82:p, space :::p, comp label4:::p::p}, seq l {comp txtCompressaoAgua:::p:82:p, space :::p, comp label5:::p::p}, comp labelCompressaoAgua::l:p::p, comp labelCompressaoOleo:::p::p, seq l {comp txtCompressaoOleo:::p:82:p, space :::p, comp label6:::p::p}, seq l {comp txtViscosidade:::p:82:p, space :::p, comp label7:::p::p}, comp labelViscosidade:::p::p, comp cbxTipoDeFluxo::l:::x}, comp labelLaminaDAgua:::p::p, seq l {comp txtLaminaDAgua:::p:82:p, space :::p, comp label8:::p::p}}, space ::62:x, par l {seq l {comp labelNx:::p::p, space :::p, par l {comp labelDirecao:::p::p, seq l {comp txtNx:::p:30:p, space :::p, comp labelNy:::p::p, space :::p, comp txtNy:::p:30:p, space :::p, comp labelNz:::p::p, space :::p, comp txtNz:::p:30:p}}}, seq l {comp labelDeltaX:::p::p, space :::p, comp txtDeltaX:::p:30:p, space :::p, comp labelDeltaY:::p::p, space :::p, comp txtDeltaY:::p:30:p, space :::p, comp labelDeltaZ:::p::p, space :::p, comp txtDeltaZ:::p:30:p}, seq {space :16:16:p, par l:::p {comp labelQuantidadeDePoços::l:p::p, comp labelPressaoInicial::l:p::p, comp labelDeltaT::l:p::p, comp labelTempoFinal::l:p::p, comp labelFronteiraDireita::l:p::p, seq l {comp txtPressaoInicial:::p:82:p, space :::p, comp label10:::p::p}, seq l {comp txtDeltaT:::p:82:p, space :::p, comp label11:::p::p}, seq l {comp txtTempoFinal:::p:82:p, space :::p, comp label12:::p::p}, comp txtQuantidadeDePoços::l:p:100:p, comp labelFronteiraEsquerda::l:p::p, comp labelDelta::l:p::p, comp cbxFronteiraEsquerda::l::120:x, comp cbxFronteiraDireita::l::120:x}}}, space :p:25:p}}"
+				"$verticalGroup": "par l {seq l {space :p:18:p, par l {seq {comp labelQuantidadeDePoços:::p::p, space :::p, comp txtQuantidadeDePoços:::p::p, space s:::p, comp labelPressaoInicial:::p::p, space :::p, par b {comp txtPressaoInicial::b:p::p, comp label10::b:p::p}, space s:::p, comp labelDeltaT:::p::p, space :4:4:p, par b {comp txtDeltaT::b:p::p, comp label11::b:p::p}, space s:::p, comp labelTempoFinal:::p::p, space :p:4:p, par b {comp txtTempoFinal::b:p::p, comp label12::b:p::p}, space s:::p, comp labelFronteiraEsquerda:::p::p, space :p:4:p, comp cbxFronteiraEsquerda:::p::p, space s:::p, comp labelFronteiraDireita:::p::p, space :::p, comp cbxFronteiraDireita:::p::p, space :p:18:p, comp labelDirecao:::p::p, space :4:4:p, par b {comp labelNy::b:p::p, comp txtNy::b:p::p, comp labelNz::b:p::p, comp txtNz::b:p::p, comp labelNx::b:p::p, comp txtNx::b:p::p}, space s:::p, comp labelDelta:::p::p, space :p:6:p, par b {comp labelDeltaX::b:p::p, comp txtDeltaX::b:p::p, comp labelDeltaY::b:p::p, comp txtDeltaY::b:p::p, comp labelDeltaZ::b:p::p, comp txtDeltaZ::b:p::p}}, seq {comp labelTipoDeFluxo:::p::p, space :::p, comp cbxTipoDeFluxo:::p::p, space s:::p, comp labelPorosidade:::p::p, space :::p, par b {comp txtPorosidade::b:p::p, comp label3::b:p::p}, space s:::p, comp labelPermeabilidade:::p::p, space :4:4:p, par b {comp txtPermeabilidade::b:p::p, comp label2::b:p::p}, space s:::p, comp labelCompressibilidade:::p::p, space :p:4:p, par b {comp txtCompressibilidade::b:p::p, comp label4::b:p::p}, space s:::p, comp labelCompressaoAgua:::p::p, space :p:4:p, par b {comp txtCompressaoAgua::b:p::p, comp label5::b:p::p}, space s:::p, comp labelCompressaoOleo:::p::p, space :6:6:p, par b {comp txtCompressaoOleo::b:p::p, comp label6::b:p::p}, space s:::p, comp labelViscosidade:::p::p, space :4:4:p, par b {comp txtViscosidade::b:p::p, comp label7::b:p::p}, space s:::p, comp labelLaminaDAgua:::p::p, space :p:6:p, par b {comp txtLaminaDAgua::b:p::p, comp label8::b:p::p}}}, space ::29:x}}"
+			} ) {
+				name: "panelReservatorio"
+				"border": new javax.swing.border.TitledBorder( "Reservatório" )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "labelTipoDeFluxo"
+					"text": "Tipo de Fluxo"
+				} )
+				add( new FormComponent( "javax.swing.JComboBox" ) {
+					name: "cbxTipoDeFluxo"
+					addEvent( new FormEvent( "java.awt.event.ItemListener", "itemStateChanged", "comboBoxTipoDeFluxoItemStateChanged", true ) )
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "labelPorosidade"
+					"text": "Porosidade"
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "txtPorosidade"
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "labelPermeabilidade"
+					"text": "Permeabilidade"
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "txtPermeabilidade"
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "labelCompressibilidade"
+					"text": "Compressibilidade"
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "txtCompressibilidade"
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "labelCompressaoAgua"
+					"text": "Compressão d'Água"
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "txtCompressaoAgua"
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "labelCompressaoOleo"
+					"text": "Compressão do Óleo"
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "txtCompressaoOleo"
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "labelViscosidade"
+					"text": "Viscosidade"
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "txtViscosidade"
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "labelLaminaDAgua"
+					"text": "Lamina d'Água"
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "txtLaminaDAgua"
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "labelQuantidadeDePoços"
+					"text": "Quantidade de Poços"
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "txtQuantidadeDePoços"
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "labelPressaoInicial"
+					"text": "Pressão Inicial"
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "txtPressaoInicial"
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "labelDeltaT"
+					"text": "Delta T"
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "txtDeltaT"
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "labelTempoFinal"
+					"text": "Tempo Final"
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "txtTempoFinal"
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "labelFronteiraEsquerda"
+					"text": "Fronteira Esquerda"
+				} )
+				add( new FormComponent( "javax.swing.JComboBox" ) {
+					name: "cbxFronteiraEsquerda"
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "labelFronteiraDireita"
+					"text": "Fronteira Direita"
+				} )
+				add( new FormComponent( "javax.swing.JComboBox" ) {
+					name: "cbxFronteiraDireita"
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "labelDirecao"
+					"text": "Direção"
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "txtNx"
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "labelNx"
+					"text": "X:"
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "labelNy"
+					"text": "Y:"
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "txtNy"
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "labelNz"
+					"text": "Z:"
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "txtNz"
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "txtDeltaZ"
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "labelDeltaZ"
+					"text": "Z:"
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "txtDeltaY"
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "labelDeltaY"
+					"text": "Y:"
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "txtDeltaX"
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "labelDeltaX"
+					"text": "X:"
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "labelDelta"
+					"text": "Delta"
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label2"
+					"text": "mD"
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label3"
+					"text": "%"
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label4"
+					"text": "1/psi"
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label5"
+					"text": "kPa^-1"
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label6"
+					"text": "1/psi"
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label7"
+					"text": "cP"
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label8"
+					"text": "m"
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label10"
+					"text": "kPa"
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label11"
+					"text": "Dias"
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label12"
+					"text": "Dias"
+				} )
+			} )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+				"$horizontalGroup": "par l {seq {space :p:14:p, par l {seq l {par l {comp labelKro_max::l:p::p, comp txtKro_max::l:p:50:p}, space :::p, comp labelKro_max2:::p::p}, seq l {par l {comp labelKrw_max::l:p::p, comp txtKrw_max::l:p:50:p}, space :::p, comp labelKrw_max2:::p::p}, seq l {comp txtRho_o:::p:50:p, space :::p, comp labelRho_o2:::p::p}, comp labelRho_o:::p::p, seq {comp txtRho_w:::p:50:p, space :::p, comp labelRho_w2:::p::p}, comp labelRho_w::l:p::p}, space ::63:x, par l {comp txtSor::l:p:50:p, comp txtSwi::l:p:50:p, seq l {comp txtMi_o:::p:50:p, space :::p, comp labelMi_o2:::p::p}, seq l {comp txtMi_w:::p:50:p, space :::p, comp labelMi_w2:::p::p}, comp labelMi_o::l:p::p, comp labelMi_w::l:p::p, comp labelSor::l:p::p, comp labelSwi::l:p::p}, space ::72:x, par l {comp labelEo:::p::p, par l {comp txtEo::t:p:50:p, comp txtEw::t:p:50:p, comp txtBo::t:p:50:p, comp txtBw::t:p:50:p}, comp labelEw:::p::p, comp labelBo:::p::p, comp labelBw:::p::p}, space :p:33:p}}"
+				"$verticalGroup": "par l {seq {space :::p, par l {seq {comp labelKro_max:::p::p, space :::p, par b {comp txtKro_max::b:p::p, comp labelKro_max2::b:p::p}, space s:::p, comp labelKrw_max:::p::p, space :::p, par b {comp txtKrw_max::b:p::p, comp labelKrw_max2::b:p::p}, space s:::p, comp labelRho_o:::p::p, space :::p, par b {comp txtRho_o::b:p::p, comp labelRho_o2::b:p::p}, space s:::p, comp labelRho_w:::p::p}, seq l {space :190:190:p, comp labelSwi:::p::p, space :::p, par b {comp txtSwi::b:p::p, comp txtRho_w::b:p::p, comp labelRho_w2::b:p::p}}, seq l {par b {comp labelMi_o::b:p::p, comp labelEo::b:p::p}, space :::p, par l {seq {par b {comp txtMi_o::b:p::p, comp labelMi_o2::b:p::p}, space s:::p, comp labelMi_w:::p::p, space :::p, par b {comp txtMi_w::b:p::p, comp labelMi_w2::b:p::p}, space :p:16:p, comp labelSor:::p::p, space :::p, comp txtSor:::p::p}, seq {comp txtEo:::p::p, space :p:18:p, comp labelEw:::p::p, space :::p, comp txtEw:::p::p, space :p:18:p, comp labelBo:::p::p, space :::p, comp txtBo:::p::p, space :p:18:p, comp labelBw:::p::p, space :::p, comp txtBw:::p::p}}}}, space ::18:x}}"
+			} ) {
+				name: "panelModeloBifasico"
+				"border": new javax.swing.border.TitledBorder( "Modelo Bifasico" )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "labelKro_max"
+					"text": "Kro_max"
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "txtKro_max"
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "labelKrw_max"
+					"text": "Krw_max"
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "txtKrw_max"
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "labelSor"
+					"text": "Sor"
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "txtRho_o"
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "labelSwi"
+					"text": "Swi"
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "labelKro_max2"
+					"text": "mD"
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "labelKrw_max2"
+					"text": "mD"
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "txtMi_o"
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "txtEo"
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "txtMi_w"
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "txtSor"
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "txtSwi"
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "txtEw"
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "txtBo"
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "txtBw"
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "labelMi_o"
+					"text": "Mi_o"
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "labelMi_w"
+					"text": "Mi_w"
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "labelRho_o"
+					"text": "Rho_o"
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "labelRho_o2"
+					"text": "kg/m³"
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "labelRho_w"
+					"text": "Rho_w"
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "labelMi_o2"
+					"text": "cP"
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "labelMi_w2"
+					"text": "cP"
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "labelEo"
+					"text": "Eo"
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "labelEw"
+					"text": "Ew"
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "labelBo"
+					"text": "Bo"
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "labelBw"
+					"text": "Bw"
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "txtRho_w"
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "labelRho_w2"
+					"text": "kg/m³"
+				} )
+			} )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+				"$horizontalGroup": "par l {seq {space :p:16:p, par l {seq {par l {seq l {comp txtNomePoco:::::x, space :p:38:p}, comp labelNomePoco:::p::p, comp labelRaioPoco::l:p::p, seq l {par l:::p {seq l {comp labelPosicaoX:::p::p, space :6:6:p, comp txtPosicaoX:::p:30:p}, comp txtRaio:::p:46:p}, space :6:6:p, par l {seq l {comp labelNy2:::p::p, space :6:6:p, comp txtPosicaoY:::p:30:p, space :6:6:p, comp labelNz2:::p::p, space :6:6:p, comp txtPosicaoZ:::p:30:p}, seq l {comp label1:::p::p, space s:::p, par l {comp labelValor:::p::p, seq l {comp txtValor:::p:47:p, space :::p, comp label9:::p::p}}}}}}, space :p:36:p}, seq {par l {par t:l::p {comp txtSkinFact::l:::x, comp labelSkinFact::l:p::p}, comp labelPosicaoPoco:::p::p}, space :177::x}}, par l {par l:t::p {comp labelTipoControle:::p::p, comp labelTipoPoco:::p::p, comp cbxTipoPoco::::120:x, comp labelDirecaoPoco:::p::p, comp cbxDirecaoPoco::l::120:x, comp cbxTipoControle::l::120:x}, comp buttonSimular::t:p::p}, space :p:38:p}}"
+				"$verticalGroup": "par l {seq l {space :::p, par l {seq {comp labelNomePoco:::p::p, space :::p, comp txtNomePoco:::p::p, space u:::p, comp labelPosicaoPoco:::p::p, space :::p, par l {comp txtPosicaoX:::p::p, comp txtPosicaoY:::p::p, comp txtPosicaoZ:::p::p, seq l {space :4:4:p, par l {comp labelPosicaoX:::p::p, comp labelNy2:::p::p, comp labelNz2:::p::p}}}, space u:::p, par l {seq l {comp labelRaioPoco:::p::p, space :::p, par b {comp txtRaio::b:p::p, comp label1::b:p::p, comp txtValor::b:p::p, comp label9::b:p::p}}, comp labelValor:::p::p}, space u:::p, comp labelSkinFact:::p::p, space :::p, comp txtSkinFact:::p::p}, seq {comp labelTipoPoco:::p::p, space :::p, comp cbxTipoPoco:::p::p, space u:::p, comp labelDirecaoPoco:::p::p, space :::p, comp cbxDirecaoPoco:::p::p, space u:::p, comp labelTipoControle:::p::p, space :::p, comp cbxTipoControle:::p::p, space :p:35:p, comp buttonSimular:::p::p}}, space ::15:x}}"
+			} ) {
+				name: "panelPoco"
+				"border": new javax.swing.border.TitledBorder( "Poço" )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "labelNomePoco"
+					"text": "Nome"
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "txtNomePoco"
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "labelTipoPoco"
+					"text": "Tipo"
+				} )
+				add( new FormComponent( "javax.swing.JComboBox" ) {
+					name: "cbxTipoPoco"
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "txtPosicaoZ"
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "labelNz2"
+					"text": "Z:"
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "txtPosicaoY"
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "labelNy2"
+					"text": "Y:"
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "txtPosicaoX"
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "labelPosicaoX"
+					"text": "X:"
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "labelPosicaoPoco"
+					"text": "Posição"
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "labelDirecaoPoco"
+					"text": "Direção"
+				} )
+				add( new FormComponent( "javax.swing.JComboBox" ) {
+					name: "cbxDirecaoPoco"
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "labelTipoControle"
+					"text": "Tipo de Controle"
+				} )
+				add( new FormComponent( "javax.swing.JComboBox" ) {
+					name: "cbxTipoControle"
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "labelRaioPoco"
+					"text": "Raio"
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "txtRaio"
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label1"
+					"text": "m"
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "txtValor"
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "labelValor"
+					"text": "Valor"
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label9"
+					"text": "kPa ou m³"
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "labelSkinFact"
+					"text": "Skin Fact"
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "txtSkinFact"
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "buttonSimular"
+					"text": "Simular"
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "buttonSalvarActionPerformed", true ) )
+				} )
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 800, 600 )
+		} )
+	}
+}
